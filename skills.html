@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Skills</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <div
+          class="text-blue-500 text-xl font-normal border-2 border-blue-500 rounded-full w-[50px] h-[50px] flex items-center justify-center shadow-lg mr-2 tracking-widest"
+        >
+          Ap
+        </div>
+        <nav>
+          <ul class="flex space-x-6 font-semibold">
+            <li>
+              <a href="index.html" class="hover:text-blue-600 transition"
+                >HOME</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="text-blue-600 font-bold">ABOUT</a>
+            </li>
+            <li>
+              <a href="skills.html" class="hover:text-blue-600 transition"
+                >SKILLS</a
+              >
+            </li>
+            <li>
+              <a href="works.html" class="hover:text-blue-600 transition"
+                >MY WORKS</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="hover:text-blue-600 transition"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto py-10 px-4">
+      <section class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800">
+          <i class="fas fa-tools text-blue-500 mr-2"></i>Skills
+        </h2>
+        <p class="text-gray-600 mt-2">
+          A representation of my key technical skills.
+        </p>
+      </section>
+
+      <!-- Frontend -->
+      <section class="mb-10">
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">
+          <i class="fas fa-code mr-2 text-pink-500"></i>Frontend Development
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fab fa-html5 text-orange-500 mr-2"></i>HTML
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-full"></div>
+            </div>
+            <p class="text-gray-600">
+              Proficient in creating semantic and accessible HTML markup.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fab fa-css3-alt text-blue-500 mr-2"></i>CSS
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-full"></div>
+            </div>
+            <p class="text-gray-600">
+              Experienced in styling websites with modern CSS techniques.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fab fa-js-square text-yellow-400 mr-2"></i>JavaScript
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-4/5"></div>
+            </div>
+            <p class="text-gray-600">
+              Able to develop interactive web applications using JavaScript.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fas fa-wind text-teal-400 mr-2"></i>Tailwind CSS
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-3/4"></div>
+            </div>
+            <p class="text-gray-600">
+              Skilled in using Tailwind CSS for rapid and efficient styling.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fab fa-react text-blue-400 mr-2"></i>React
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-2/3"></div>
+            </div>
+            <p class="text-gray-600">
+              Experience building dynamic user interfaces with React.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fab fa-figma text-purple-500 mr-2"></i>Figma
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-1/2"></div>
+            </div>
+            <p class="text-gray-600">
+              Proficient in designing user interfaces using Figma.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Backend -->
+      <section class="mb-10">
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">
+          <i class="fas fa-server mr-2 text-green-500"></i>Backend Development
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fab fa-node-js text-green-600 mr-2"></i>Node.js
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-1/3"></div>
+            </div>
+            <p class="text-gray-600">
+              Skilled in building server-side applications using Node.js.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fas fa-code-branch text-indigo-500 mr-2"></i>Express.js
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-1/3"></div>
+            </div>
+            <p class="text-gray-600">
+              Experienced with creating RESTful APIs using Express.js.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Databases -->
+      <section class="mb-10">
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">
+          <i class="fas fa-database mr-2 text-yellow-600"></i>Databases
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fas fa-leaf text-green-500 mr-2"></i>MongoDB
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-1/3"></div>
+            </div>
+            <p class="text-gray-600">
+              Familiar with NoSQL database operations using MongoDB.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fas fa-database text-blue-600 mr-2"></i>MySQL
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-1/3"></div>
+            </div>
+            <p class="text-gray-600">
+              Skilled in designing relational databases and SQL queries.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tools -->
+      <section class="mb-10">
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">
+          <i class="fas fa-wrench mr-2 text-gray-500"></i>Tools & Version
+          Control
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fab fa-git-alt text-orange-500 mr-2"></i>Git
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-1/4"></div>
+            </div>
+            <p class="text-gray-600">
+              Proficient in version control with Git and GitHub.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fas fa-code text-indigo-500 mr-2"></i>VS Code
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-1/4"></div>
+            </div>
+            <p class="text-gray-600">
+              Experienced using Visual Studio Code for development.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Deployment -->
+      <section class="mb-10">
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">
+          <i class="fas fa-cloud-upload-alt mr-2 text-blue-400"></i>Deployment &
+          Hosting
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fas fa-rocket text-purple-500 mr-2"></i>Netlify
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-1/3"></div>
+            </div>
+            <p class="text-gray-600">
+              Experienced deploying frontend apps with Netlify.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fas fa-bolt text-gray-700 mr-2"></i>Vercel
+            </h4>
+            <div class="bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-blue-500 rounded-full h-2 w-1/2"></div>
+            </div>
+            <p class="text-gray-600">
+              Used Vercel for fast React-based deployments.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-10 pb-6 mt-10">
+      <div
+        class="container mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-3 gap-10"
+      >
+        <div>
+          <h4 class="text-xl font-bold mb-4">
+            <i class="fas fa-user-circle mr-2 text-pink-400"></i>About Me
+          </h4>
+          <p class="text-gray-400">
+            I'm Apophia, a full stack developer dedicated to crafting beautiful,
+            functional, and accessible web experiences.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-xl font-bold mb-4">
+            <i class="fas fa-link mr-2 text-green-400"></i>Quick Links
+          </h4>
+          <ul class="space-y-2 text-gray-400">
+            <li>
+              <a href="index.html" class="hover:text-pink-400 transition"
+                ><i class="fas fa-home mr-1"></i>Home</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="hover:text-pink-400 transition"
+                ><i class="fas fa-user mr-1"></i>About</a
+              >
+            </li>
+            <li>
+              <a href="skills.html" class="hover:text-pink-400 transition"
+                ><i class="fas fa-tools mr-1"></i>Skills</a
+              >
+            </li>
+            <li>
+              <a href="works.html" class="hover:text-pink-400 transition"
+                ><i class="fas fa-briefcase mr-1"></i>My Works</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="hover:text-pink-400 transition"
+                ><i class="fas fa-envelope mr-1"></i>Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xl font-bold mb-4">
+            <i class="fas fa-phone-alt mr-2 text-blue-400"></i>Contact
+          </h4>
+          <p class="text-gray-400 mb-2">
+            <i class="fas fa-envelope mr-2 text-pink-400"></i>
+            apophia@example.com
+          </p>
+          <p class="text-gray-400 mb-4">
+            <i class="fas fa-phone-alt mr-2 text-green-400"></i> +250 791 532
+            685
+          </p>
+          <div class="flex space-x-4">
+            <a
+              href="https://wa.me/+250791532685"
+              target="_blank"
+              class="hover:text-green-400 transition"
+              ><i class="fab fa-whatsapp text-2xl"></i
+            ></a>
+            <a
+              href="https://facebook.com/apophia"
+              target="_blank"
+              class="hover:text-blue-500 transition"
+              ><i class="fab fa-facebook text-2xl"></i
+            ></a>
+            <a
+              href="https://instagram.com/___apophia___"
+              target="_blank"
+              class="hover:text-pink-500 transition"
+              ><i class="fab fa-instagram text-2xl"></i
+            ></a>
+            <a
+              href="https://twitter.com/apophia"
+              target="_blank"
+              class="hover:text-sky-400 transition"
+              ><i class="fab fa-twitter text-2xl"></i
+            ></a>
+            <a
+              href="https://linkedin.com/in/apophia"
+              target="_blank"
+              class="hover:text-blue-300 transition"
+              ><i class="fab fa-linkedin text-2xl"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center text-gray-500 mt-8 text-sm">
+        &copy; <span id="year"></span> Apophia. All rights reserved.
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
